@@ -1,0 +1,65 @@
+*{
+    
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.navbar{
+background-image: linear-gradient(to left, #0f13ff, rgb(0, 242, 255));
+}
+
+.navbar-brand{
+    font-weight: bold;
+}
+
+.navbar-nav li a{
+    font-weight: bold;
+}
+
+.nav-item a:hover{
+    color: rgb(11, 255, 190);
+}
+
+.nav-item a{
+    color: white;
+    text-shadow: 5px 5px 5px rgba(0, 0, 0, 5);
+    transition: all .55s ease;
+}
+
+.hero{
+    padding-top: 6rem;
+    background-color: #e2edff;
+}
+
+#skills{
+background-color: #e2edff;
+}
+
+section{
+    padding-top: 10rem;
+}
+
+#social-media{
+    padding: 10px 0;
+}
+
+#social-media p{
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+
+.social-icons img{
+    width: 25px;
+    transition: 0,5s;
+    margin: 0 10px;
+}
+
+.social-icons a:hover img{
+    transform: translateY(-10px);
+}
+
+.hero img:hover{
+    width: 30%;
+    transition: 1.5s ease;
+}
